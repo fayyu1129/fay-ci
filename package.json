@@ -22,6 +22,10 @@
   "dependencies": {
     "standard": "^14.3.1"
   },
+  "scripts": {
+  "test": "jest", // add the comma
+  "build":"npx parcel build index.js" // add this line
+  },
   "standard": {
     "env": [ "jest" ]
   }
