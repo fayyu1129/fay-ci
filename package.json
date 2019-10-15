@@ -25,6 +25,7 @@
   "scripts": {
   "test": "jest", 
   "build":"npx parcel build index.js" 
+  "lint": "npx standard --fix"
   },
   "standard": {
     "env": [ "jest" ]
